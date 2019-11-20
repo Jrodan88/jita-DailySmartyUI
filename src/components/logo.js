@@ -14,7 +14,7 @@ class Logo extends Component {
           <img
             style={size}
             alt="daily smarty ui image logo big"
-            src="/assets/ds_circle_log.png"
+            src="/assets/ds_circle_logo.png"
           />
         </Link>
       </div>
