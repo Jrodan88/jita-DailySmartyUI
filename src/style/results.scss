@@ -16,7 +16,7 @@
     .results-posts__posts {
       display: grid;
       grid-row-gap: 20px;
-      // justify-content: stretch;
+      justify-content: stretch;
     }
   }
 }
@@ -38,13 +38,16 @@
     line-height: 22px;
   }
   .result-post__links {
-    // display: flex;
+    display: flex;
   }
 }
 
 .post-link {
   min-height: 70px;
   display: flex;
+  flex-basis: 205px;
+  margin-right: 37px;
+
   .post-link__box {
     min-width: 70px;
     background-color: $color-gray-three;
